@@ -1,0 +1,5 @@
+#continue statement in for loop
+for i in range(100):
+    if(i == 50): # This line checks if the current value of i is equal to 50. If this condition is true, it will execute the block of code inside the if statement.
+        continue # This line will skip the rest of the code inside the loop for the current iteration when i is equal to 50. The continue statement is used to skip the current iteration and move on to the next iteration of the loop, so when i is 50, it will not execute any code below this line and will go back to the beginning of the loop for the next value of i.
+    print(i) # This line prints the current value of i to the console. Each time the loop runs, it will output the current number that i is representing, starting from 0 and going up to 99, but it will skip printing 50 due to the continue statement.
