@@ -1,0 +1,8 @@
+#for loop with if else statement
+_list = [1, 7, 8] # This line initializes a list called _list with three elements: 1, 7, and 8. The list is a collection of items that can be of different data types, but in this case, all the elements are integers. We will use this list to demonstrate how to iterate over its elements using a for loop with an else statement.
+
+for item in _list: # This line starts a for loop that will iterate over each element in the list _list. The variable item will take on the value of each element in the list, one at a time, as the loop runs. In the first iteration, item will be 1; in the second iteration, item will be 7; and in the third iteration, item will be 8. The loop will continue to run until it has iterated through all the elements in the list.
+    print(item) # This line prints the current value of item to the console. Each time the loop runs, it will output the current element of the list that item is representing. As the loop iterates through the list, it will print each element in order: 1, 7, and 8.
+
+else:# This line starts an else block that will execute if the for loop completes without encountering a break statement. The else block is associated with the for loop and will run after the loop has finished iterating through all the elements in the list.
+    print("done")  # This line will execute if the for loop completes without encountering a break statement.
